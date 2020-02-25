@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300i&display=swap');
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -11,6 +13,27 @@
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+}
+
+#nav{
+  position: sticky;
+  bottom: 20%;
+  margin-left: 250px;
+}
+
+.devText {
+  background-color: #616161;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  z-index:1000;
+  font-family: 'Open Sans Condensed';
+  float: left;
+  margin-left: 50px;
+}
+
+.devText:hover{
+  background-color: #9E9E9E;
 }
 
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
